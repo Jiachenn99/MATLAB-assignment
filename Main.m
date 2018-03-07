@@ -5,6 +5,18 @@ difficulty = menu("Select your difficulty POS", "Easy", "Medium", "Hard")
     
     switch(difficulty)
         case 1
-            disp("FUCK")
-        
+            disp("Welcome to Easy Mode!")
+       
+            
+            
+            
+        case 2
+            disp("Welcome to Medium Mode!")
+            
+            
+         
+            
+            
+        case 3 
+            disp("Welcome to Hard Mode!")
     end
