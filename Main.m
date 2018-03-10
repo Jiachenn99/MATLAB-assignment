@@ -6,7 +6,7 @@ difficulty = menu("Select your difficulty POS", "Easy", "Medium", "Hard")
     switch(difficulty)
         case 1
             disp("Welcome to Easy Mode!")
-       
+                
             
             
             
