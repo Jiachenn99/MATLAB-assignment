@@ -12,7 +12,7 @@ function string = userAuth(x)
             username = input('Please enter your username: ')
             fileID = fopen('highscores.txt' , 'w');
             formatSpec = '%s';
-            %insert ismember function here for username
+            
             
             
             
