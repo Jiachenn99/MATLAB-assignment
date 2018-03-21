@@ -32,6 +32,9 @@ function E = easyMode(~)
         highScores(score);
     end
     %Writing to high score file
+    %using cell to store information
+    storage = cell(50,2);
+    score = storage(i,j);
     
     
     
