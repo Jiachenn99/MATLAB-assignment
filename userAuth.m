@@ -7,14 +7,14 @@ function string = userAuth(userName)
         case 1 %When username does not exist
             userName = input('Please enter your username: ', 's');
             fileID = fopen('highscores.txt' , 'a+t');
-            formatSpec = ('%s');
+            formatSpec = ('%s \n');
             fprintf(fileID, formatSpec, userName);
             fclose(fileID);
             
             
             
         case 2 %When username exists           
-            userName = input('Please enter your username: ', 's')
+            userName = input('Please enter your username: ', 's');
             fileID = fopen('highscores.txt', 'r+t');
             formatSpec = '%s';
             dataAuth = fscanf(fileID, formatSpec, 50);
@@ -30,6 +30,7 @@ function string = userAuth(userName)
                 fprintf(fileID, formatSpec, userName);
                 fclose(fileID);
             end
+    end
     
 end
 %Receives a string x to check whether the user's name exist

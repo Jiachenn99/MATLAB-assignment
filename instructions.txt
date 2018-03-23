@@ -1,0 +1,13 @@
+The RNG RPG 
+
+Hey there adventurer! To play the game, simply select one of the three available modes, Easy, Medium
+or Hard and you will be brought into the game! A selection of 4 numbers will be provided, with
+different attacks:
+
+Normal hit: Deals normal damage to the enemy
+Critical hit: Deals 2 times the normal damage to the enemy
+Normal miss: The enemy deals normal damage to you
+Critical miss: The enemy deals two times their normal damage to you
+
+The way to win this game, is to pick numbers you think are hits and deplete the health bar of 
+the enemy. Good luck and have fun!
